@@ -1,2 +1,3 @@
-# librebooks
-The main website for LibreBooks.org
+# كتب عربية حرة
+
+محتوى موقع [كتب عربية حرة](https://librebooks.org/).
