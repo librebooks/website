@@ -71,10 +71,13 @@ metaDataFormat = "yaml"
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  ascentColor = "bg-zink-500"
 
   # The page bundle that is shown on the front page
   frontBundle = "books"
+
+  # The number of pages shown on the front page
+  frontBundleSize = 12
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
@@ -121,8 +124,8 @@ metaDataFormat = "yaml"
   # title = "تابعنا!"
   # description = "تابع مشروع كتب عربية حرة على المواقع المختلفة"
 
-  title = "الموقع خارج الخدمة مؤقتاً"
-  description = "حتى عودة الموقع، تابع مشروع كتب عربية حرة على منصات التواصل الاجتماعي"
+  title = "الموقع خارج الخدمة جزئياً"
+  description = "حتى عودة الموقع بالكامل، تابع مشروع كتب عربية حرة على منصات التواصل الاجتماعي"
 
   [[params.homepage.social.icons]]
     website = "twitter"

@@ -3,13 +3,12 @@ body {
 }
 
 .logo {
-  background: url(https://i.imgur.com/4XWmDjD.png) no-repeat right center transparent;
+  background: url("/images/librebooks-logo.png") no-repeat right center transparent;
   font-weight: 400;
 }
 
 .logo a {
   background: 0 0;
-  color: #333
 }
 
 .logo a:active {
@@ -29,4 +28,17 @@ body {
   font-family: "Noto Naskh Arabic",serif;
   margin: 10px 135px 0 0;
   width: 200px;
+}
+
+.h-52 {
+  height: 600px !important;
+}
+
+.max-w-5xl img {
+  max-height: 600px !important;
+}
+
+.p-2:hover{
+  transition: all 0.5s;
+  opacity: 0.8;
 }
