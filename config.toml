@@ -1,17 +1,47 @@
-baseURL = 'https://librebooks.org/'
-title = 'كتب عربية حرة'
-languageCode = "ar"
+baseURL = "https://librebooks.org/"
+title = "كتب عربية حرة"
+# languageCode = "ar"
 theme = "blist"
 enableEmoji = true
-DefaultContentLanguage = "ar"
-
+# DefaultContentLanguage = "ar"
 metaDataFormat = "yaml"
+
+# [languages]
+#   [languages.ar]
+#     contentDir = "content/ar"
+#     weight = 1
+#     languageName = "Arabic"
+#     [languages.ar.params]
+#       introTitle = "Hey! I'm Katheryn Fox"
+#       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
+#       introPhoto = "/picture.jpg"
+#       logo = "/blist-logo.png"
+#     [[languages.ar.menu.main]]
+#         name = "Blog"
+#         url = "blog"
+#         weight = 1
+
+#     [[languages.ar.menu.main]]
+#         name = "About"
+#         url = "page/about/"
+#         weight = 2
+
+#     [[languages.ar.menu.main]]
+#         name = "Tags"
+#         url = "tags"
+#         weight = 3
+
+#     [[languages.ar.menu.main]]
+#         name = "Top Post"
+#         url = "/en/blog/emoji-support/"
+#         weight = 4
+
 
 [params]
   # Main section.
-  introTitle = ""
-  introSubtitle = ""
-  logo = "/librebooks-logo.png"
+  introSubtitle = "موقع كتب عربية حرة هو منصة للكتب الحرة باللغة العربية، يهدف الموقع لإثراء المحتوى العربي والتعريف بالكتب والثقافة الحرة وأهميتها عربياً، بالإضافة إلى التشجيع على إنتاج المزيد من الكتب الحرة ذات جودة عالية. الموقع مفتوح لكافة المجالات المتنوعة ويمكن نشر أي كتاب طالما كان حراً."
+  # introPhoto = "/librebooks-logo.png"
+  # logo = "/librebooks-logo.png"
 
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -44,7 +74,7 @@ metaDataFormat = "yaml"
   ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "blog"
+  frontBundle = "books"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
@@ -56,7 +86,7 @@ metaDataFormat = "yaml"
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
-  toc = true
+  toc = false
 
   # Hides the thumbnail in post view
   # Thumbnails in home and blog pages will still be shown
@@ -104,13 +134,19 @@ metaDataFormat = "yaml"
     website = "facebook"
     url = "https://www.facebook.com/LibreBooks"
 
-[[menu.main]]
-  name = "كتب حرة؟"
-  url = "/free-books"
+[menu]
+  [[menu.main]]
+    name = "كتب حرة؟"
+    url = "/free-books"
 
-[[menu.main]]
-  name = "عن الموقع"
-  url = "/about-site"
+  [[menu.main]]
+    name = "عن الموقع"
+    url = "/about-site"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [build]
   writeStats = true
