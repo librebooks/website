@@ -44,7 +44,7 @@ metaDataFormat = "yaml"
   # logo = "/librebooks-logo.png"
 
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
   
   # Enable search in header
   enableSearch = true
@@ -85,7 +85,7 @@ metaDataFormat = "yaml"
 
   # To hide "Other languages" option if the post is available in multiple languages
   # Can be used at site level or page level
-  hideOtherLanguages = false
+  hideOtherLanguages = true
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
@@ -121,9 +121,6 @@ metaDataFormat = "yaml"
 
 [params.homepage.social]
   # Global params common for both languages
-  # title = "تابعنا!"
-  # description = "تابع مشروع كتب عربية حرة على المواقع المختلفة"
-
   title = "الموقع خارج الخدمة جزئياً"
   description = "حتى عودة الموقع بالكامل، تابع مشروع كتب عربية حرة على منصات التواصل الاجتماعي"
 
@@ -146,10 +143,15 @@ metaDataFormat = "yaml"
     name = "عن الموقع"
     url = "/about-site"
 
+  [[menu.main]]
+    name = "التصنيفات"
+    url = "/taxonomies"
+
 [taxonomies]
-  category = "categories"
-  series = "series"
   tag = "tags"
+  license = "license"
+  creator = "creator"
+  release = "release"
 
 [build]
   writeStats = true

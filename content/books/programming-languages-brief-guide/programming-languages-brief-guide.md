@@ -5,6 +5,20 @@ date: 2013-08-04T15:01:56+00:00
 tags: ["برمجة"]
 url: /programming-languages-brief-guide
 thumbnail: programming-languages-brief-guide.jpg
+
+# Book Info.
+creator: على آل ياسين
+pages: 155
+version: "1.2"
+release: 2014
+license: CC BY-NC-SA 3.0
+download:
+website:
+tags:
+- برمجة
+- لغات برمجة
+- مشروع كتب عربية حرة
+- مقدمة
 ---
 
 يأخذك الكتاب في جولة عبر عالم البرمجة، في البداية يتحدث عن حلم البرمجة بالنسبة لكل مهتم بالبرمجيات، ثم يخوض في أنواع البرمجة من برمجة إلزامية (أمرية) Imperative والتي تتفرع منها كلاً من البرمجة غير المنظمة Unstructured Programming والبرمجة المنظمة Structured Programming ومميزات وعيوب كلاُ منهما والبرمجة الإجرائية Procedural وبعض مصطلحات البرمجة العامة مثل المتغيرات Variables والقوائم Arrays والقيمة غير المعرفة Null Value والهاش Hash ومسار البرنامج Workflow.

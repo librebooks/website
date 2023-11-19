@@ -2,9 +2,22 @@
 title: دليل استخدام المشاع الإبداعي
 description: دليل يتناول المشاع الإبداعي Creative Commons بأسلوب سلس بسيط ملم بالالتباسات الشائعة مما يوضح ماهيته ورخصه، ويساعد في اختيار الرخصة الإبداعية المناسبة
 date: 2014-11-20T18:24:07+00:00
-tags: ["مشاع إبداعي"]
 url: /creative-commons-user-guide-arabic
 thumbnail: creative-commons-user-guide-arabic.jpg
+
+# Book Info.
+creator: هبة فريد
+pages: 102
+version: "1.0"
+release: 2014
+license: CC BY-NC-SA 3.0
+download:
+website:
+tags:
+- دليل
+- رخص حرة
+- مشاع إبداعي
+- مشروع كتب عربية حرة
 ---
 
 لفترات طويلة كانت هناك أسئلة متنوعة حول مشروع Creative Commons أو ما يعرف عربياً باسم المشاع الإبداعي، وعلى الرغم من الجهود المتنوعة، إلا أنه لم يكن هناك مصدر واحد يتناول المشاع الإبداعي بشيء من التفصيل.
