@@ -1,9 +1,43 @@
 body {
   font-family: "Noto Naskh Arabic",serif !important;
+  background-color: #e6e6e6;
 }
 
+main {
+  background-image: url("/images/body-background.png") !important;
+  border-top: 8px solid #c9c9c9;
+}
+
+.px-4 {
+  padding: 3rem 0 1rem;
+}
+
+.h-52 {
+  height: 600px !important;
+}
+
+.max-w-5xl img {
+  max-height: 600px !important;
+}
+
+.p-2:hover{
+  transition: all 0.5s;
+  opacity: 0.8;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+  border: 0.5px solid #e0e0e0;
+}
+
+/*
+--------------------------------------------------------------------------------
+Logo
+--------------------------------------------------------------------------------
+*/
+
 .logo {
-  background: url("/images/librebooks-logo.png") no-repeat right center transparent;
+  background: url("/images/librebooks-logo.png") no-repeat right center;
   font-weight: 400;
 }
 
@@ -26,21 +60,8 @@ body {
 .logo h2 {
   background: 0 0;
   font-family: "Noto Naskh Arabic",serif;
-  margin: 10px 135px 0 0;
+  margin: 0 135px 10px 0;
   width: 200px;
-}
-
-.h-52 {
-  height: 600px !important;
-}
-
-.max-w-5xl img {
-  max-height: 600px !important;
-}
-
-.p-2:hover{
-  transition: all 0.5s;
-  opacity: 0.8;
 }
 
 /*
