@@ -1,7 +1,7 @@
 ---
 title: "JavaScript كتاب تعلم"
-description: حكاية ويكيبيديا هو كتاب إلكتروني حر ومجاني أيضاً، يتحدث عن موسوعة ويكيبيديا الشهيرة. كيف بدأ مشروع ويكيبيديا؟ وكيف غير شكل العالم؟
-date: 2017-02-23T14:08:47+00:00
+description: "تعلم لغة البرمجة الشهيرة JavaScript باللغة العربيى والتي تعد أحدى أكثر اللغات استخداماً هذه الأيام وتعتبر JavaScript عصب الويب في وقتنا الحالي."
+date: "2017-06-04T14:40:08+00:00"
 url: /javascript-enlightenment-arabic
 thumbnail: javascript-enlightenment-arabic.jpg
 
