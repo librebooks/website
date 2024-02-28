@@ -14,7 +14,7 @@ license: CC BY 3.0
 download:
 website:
 tags:
-SEO -
+- SEO
 - محركات بحث
 - ويب
 ---
