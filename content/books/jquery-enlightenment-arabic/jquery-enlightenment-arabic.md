@@ -1,6 +1,6 @@
 ---
 title:  "jQuery كتاب تعلم"
-description: "كتاب &quot;تعلم jQuery&quot; هو ترجمة للكتاب الشهير &quot;jQuery Enlightenment&quot; لصاحبه Cody Lindley والذي يتناول هذا الكتاب مكتبة jQuery الشهيرة، ويبيّن آلية عملها."
+description: "كتاب تعلم jQuery هو ترجمة للكتاب الشهير jQuery Enlightenment لصاحبه Cody Lindley والذي يتناول هذا الكتاب مكتبة jQuery الشهيرة، ويبيّن آلية عملها."
 date: "2017-06-05T00:24:18+00:00"
 url: /jquery-enlightenment-arabic
 thumbnail: jquery-enlightenment-arabic.jpg
