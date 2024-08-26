@@ -38,6 +38,7 @@ Logo
 
 .logo {
   background: url("/images/librebooks-logo.png") no-repeat right center;
+  background-size: 120px;
   font-weight: 400;
 }
 
