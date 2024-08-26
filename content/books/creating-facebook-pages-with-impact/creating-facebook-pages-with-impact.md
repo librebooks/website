@@ -6,7 +6,7 @@ url: /creating-facebook-pages-with-impact
 thumbnail: creating-facebook-pages-with-impact.jpg
 
 # Book Info.
-creator: "جمعية تبادل الإعلام الاجتماعي "سميكس
+creator: "جمعية تبادل الإعلام الاجتماعي سميكس"
 pages: 72
 version: "1"
 release: 2012
