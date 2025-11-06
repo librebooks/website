@@ -1,0 +1,39 @@
+<div class="book-details">
+  <div id="book-details-bookmark">
+  </div>
+  <div class="book-details-info">
+    <span>
+      <b>المؤلف/المترجم:</b>
+      <a href='{{ absURL "creator" }}/{{ .Params.creator | urlize }}/'>{{ .Params.creator }}</a>
+    </span></br>
+    <span>
+      <b>الصفحات:</b>
+      {{ .Params.pages }}
+    </span>
+    <span>
+      <b>النسخة:</b>
+      {{ .Params.version }}
+    </span></br>
+    <span>
+      <b>الإصدار:</b>
+      <a href='{{ absURL "release" }}/{{ .Params.release | urlize }}/'>{{ .Params.release }}</a>
+    </span>
+    <span>
+      <b>الترخيص:</b>
+      <a href='{{ absURL "license" }}/{{ .Params.license | urlize }}/'>{{ .Params.license }}</a>
+    </span></br>
+    <span>
+      <b>الوسوم:</b>
+      {{ with .Params.tags }}
+        {{ range $i, $tag := . }}
+          {{- if $i }}،{{ end }}
+          <a href='{{ absURL "tags" }}/{{ $tag | urlize }}' rel="tag">{{ $tag }}</a>
+        {{- end }}
+      {{ end }}
+    </span>
+  </div>
+  <div class="book-details-urls" align="center">
+    <a href='{{ .Params.download }}' target="_blank">حمل الكتاب</a>
+    <a href='{{ .Params.website }}' target="_blank">صفحة الكتاب</a>
+  </div>
+</div>
