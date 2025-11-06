@@ -136,6 +136,10 @@ metaDataFormat = "yaml"
 
 [menu]
   [[menu.main]]
+    name = "المدونة"
+    url = "/blog"
+
+  [[menu.main]]
     name = "كتب حرة؟"
     url = "/free-books"
 
