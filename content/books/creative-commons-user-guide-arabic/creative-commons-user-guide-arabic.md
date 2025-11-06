@@ -11,8 +11,8 @@ pages: 102
 version: "1.0"
 release: 2014
 license: CC BY-NC-SA 3.0
-download:
-website:
+download: /books/creative-commons-user-guide-arabic/Creative-Commons-a-user-guide-Arabic-v1.0.pdf
+website: /creative-commons-user-guide-arabic
 tags:
 - دليل
 - رخص حرة
