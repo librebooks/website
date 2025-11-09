@@ -1,8 +1,14 @@
 {{ define "main" }}
   {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
-  {{ $thumbnail := printf "%s/%s/%s" .Site.Home.Permalink .File.Dir .Params.thumbnail }}
-
+  {{ $thumbnail := "" }}
+  {{ if hasPrefix .Params.thumbnail "/" }}
+    {{ $thumbnail = printf "%s%s" site.BaseURL .Params.thumbnail }}
+  {{ else }}
+    {{ $dirCat := printf "/%s" (index (split .File.Dir "/" ) 0) }}
+    {{ $dirName := (path.Base .File.Dir) }}
+    {{ $thumbnail = printf "%s/%s/%s/%s" .Site.Home.Permalink $dirCat $dirName .Params.thumbnail }}
+  {{ end }}
   {{ if (and .Params.thumbnail (not (or .Site.Params.hidePageThumbnail .Params.hidePageThumbnail)) ) }}
   <div align="center" class="relative max-w-5xl mx-auto px-4">
     <img src="{{ $thumbnail }}" class="rounded-lg shadow-sm object-contain" />

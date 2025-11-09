@@ -1,15 +1,22 @@
 <div class="p-2">
 <a href="{{ .Permalink }}">
   {{ if .Params.thumbnail }}
-  {{ $thumbnail := printf "%s/%s/%s" .Site.Home.Permalink .File.Dir  .Params.thumbnail }}
-  <div class="relative">
-    <img src="{{ $thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
-    {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
-    <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5">
-      {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "short") }}
-    </div>
+    {{ $thumbnail := "" }}
+    {{ if hasPrefix .Params.thumbnail "/" }}
+      {{ $thumbnail = printf "%s%s" site.BaseURL .Params.thumbnail }}
+    {{ else }}
+      {{ $dirCat := printf "/%s" (index (split .File.Dir "/" ) 0) }}
+      {{ $dirName := (path.Base .File.Dir) }}
+      {{ $thumbnail = printf "%s/%s/%s/%s" .Site.Home.Permalink $dirCat $dirName .Params.thumbnail }}
     {{ end }}
-  </div>
+    <div class="relative">
+      <img src="{{ $thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
+      {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+      <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5">
+        {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "short") }}
+      </div>
+      {{ end }}
+    </div>
   {{ end }}
   <div class="my-2 text-xl font-semibold">{{ .Params.title }}</div>
   <div>{{ .Params.description }}</div>
