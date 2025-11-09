@@ -1,9 +1,10 @@
+---
 title: "بِدء ترجمة كتاب Ubuntu Server Guide!"
-description: "أعلن المؤلف والناشط في ترجمة المحتوى الحر، عبد اللطيف ايمش (مؤلف "تعلم البرمجة بلغة PHP" و"سطر أوامر لينُكس")، عن بدئه العمل على ترجمة كتاب "Ubuntu Server Guide" إلى اللغة العربية."
+description:  "أعلن المؤلف والناشط في ترجمة المحتوى الحر، عبد اللطيف ايمش (مؤلف تعلم البرمجة بلغة PHP وسطر أوامر لينُكس)، عن بدئه العمل على ترجمة كتاب Ubuntu Server Guide إلى اللغة العربية"
 date: "2015-09-10T22:22:22+00:00"
 url: /blog/start-translation-of-ubuntu-server-guide
-thumbnail: .jpg
-
+thumbnail: start-translation-of-ubuntu-server-guide.png
+---
 
 إليكم نص الإعلان باللغتين العربية والإنجليزية.
 العربية:
